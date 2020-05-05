@@ -17,6 +17,7 @@ module.exports = {
       ref  : 'origin/master',
       repo : 'git@github.com:yangguangqishimi/monitor.git',
       path : '/home/ubuntu/node-project',
+      "ssh_options": ["StrictHostKeyChecking=no", "PasswordAuthentication=no"],
       'post-deploy' : 'npm install && pm2 reload ecosystem.config.js --env production'
     }
   }
