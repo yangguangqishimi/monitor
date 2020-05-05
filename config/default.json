@@ -1,0 +1,38 @@
+{
+  "log": {
+    "location": "./logs",
+    "turnOff": true
+  },
+  "pushConfig": {
+    "url": "http://pushplus.hxtrip.com/customer/push/send",
+    "token": "8bc4e9449a334da7be35e1ed71d9f4dc"
+  },
+  "serviceList": [
+    {
+      "url": "https://api.tinoq.cn/test/cms",
+      "name": "cms测试环境"
+    },
+    {
+      "url": "https://api.tinoq.cn/devops",
+      "name": "devops环境"
+    },
+    {
+      "url": "https://api.tinoq.cn/dscn/api",
+      "name": "ds测试环境"
+    },
+    {
+      "url": "https://api.tinoq.cn/vxn/cms",
+      "name": "cms环境"
+    },
+    {
+      "url": "https://ds.tinoq.cn/api/gymSettings/getAllTags",
+      "name": "ds环境",
+      "topic": "zl"
+    },
+    {
+      "url": "https://gxqa.tinoq.cn/api/gymSettings/getAllTags",
+      "name": "qa环境",
+      "topic": "zl"
+    }
+  ]
+}

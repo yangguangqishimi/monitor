@@ -1,0 +1,23 @@
+{
+  "name": "servermonitor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^3.3.1",
+    "cron": "^1.8.2",
+    "exceljs": "^3.8.2",
+    "moment-timezone": "^0.5.28",
+    "nodemailer": "^6.4.6",
+    "request": "^2.88.2",
+    "request-promise-native": "^1.0.8",
+    "tough-cookie": "^4.0.0",
+    "urlsafe-base64": "^1.0.0",
+    "winston": "^2.2.0"
+  }
+}
